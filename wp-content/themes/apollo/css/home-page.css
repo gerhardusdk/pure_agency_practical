@@ -1,0 +1,214 @@
+/* HERO BANNER STYLING */
+.hero-banner {
+  background-color: var(--lightgrey);
+  overflow: hidden;
+}
+
+.hero-banner .hero-slider-wrapper .hero-slides {
+  height: 360px;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.hero-slides .hero-slide-caption {
+  background-color: #829199;
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+}
+
+.hero-slides .hero-slide-caption .hero-slide-container {
+  max-width: 1130px;
+  margin: 0 auto;
+  padding: 30px 10px 70px 10px;
+}
+
+.hero-slides .hero-slide-caption .hero-slide-container h2 {
+  font-family: "swiss-light-extended";
+  font-size: 27px;
+  line-height: 31px;
+  color: var(--white);
+}
+
+.hero-banner .hero-slider-wrapper .slick-dots {
+  max-width: 1130px;
+  margin: 0 auto;
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  margin-top: -55px;
+  margin-bottom: 20px;
+  z-index: 99;
+  position: relative;
+  padding: 10px 10px;
+}
+
+.hero-banner .hero-slider-wrapper .slick-dots li {
+  width: 15px;
+  height: 15px;
+  border: 1px solid var(--black);
+  background-color: var(--white);
+  border-radius: 50%;
+  font-size: 0px;
+  color: transparent;
+  cursor: pointer;
+}
+
+.hero-banner .hero-slider-wrapper .slick-dots li.slick-active {
+  border: 1px solid var(--white);
+  background-color: var(--black);
+}
+
+.hero-banner .hero-slider-wrapper .slick-dots li button {
+  opacity: 0;
+}
+
+/* FAQ SECTION STYLING */
+.faq-section {
+  background-color: var(--lightgrey);
+  padding: 25px 10px;
+}
+
+.faq-section .faq-container {
+  max-width: 1130px;
+  margin: 0 auto;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.section-header {
+  display: block;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.section-header h2 {
+  font-family: "swiss-light-extended";
+  color: var(--grey);
+  font-size: 27px;
+  line-height: 31px;
+}
+
+.faq-content {
+  min-height: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.faq-content .faq-accordion .faq-accordion-header{
+    padding: 20px;
+    background-color: var(--lightbrown);
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+
+.faq-content .faq-accordion .faq-accordion-header:hover,
+.faq-content .faq-accordion.show .faq-accordion-header{
+    opacity: 0.6;
+}
+
+.faq-content .faq-accordion .faq-accordion-header p{
+  font-family: 'swiss-bold-extended';
+  font-size: 15px;
+  line-height: 18px;
+  color: var(--white);
+}
+
+.faq-content .faq-accordion .faq-accordion-header i{
+  font-size: 18px;
+  line-height: 18px;
+  color: var(--white);
+  transition: all .2s linear;
+}
+
+.faq-content .faq-accordion .faq-accordion-content{
+  padding: 0px;
+  height: 0px;
+  overflow: hidden;
+}
+
+.faq-content .faq-accordion.show .faq-accordion-header i{
+  transform: rotate(180deg);
+}
+
+.faq-content .faq-accordion.show .faq-accordion-content{
+  padding: 20px;
+  height: auto;
+}
+
+.faq-content .faq-accordion .faq-accordion-content p{
+  font-family: 'azosans-light';
+  font-size: 15px;
+  line-height: 24px;
+  color: var(--grey);
+}
+
+.section-footer {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-footer .load-more-button {
+  border: none;
+  background-color: var(--aqua);
+  padding: 20px 50px;
+  font-size: 16px;
+  line-height: 21px;
+  color: var(--white);
+  text-transform: uppercase;
+  font-family: 'swiss-light-extended';
+  transition: all 0.2s linear;
+}
+
+.section-footer .load-more-button:hover {
+  background-color: var(--grey);
+}
+
+.section-footer .load-more-button:disabled {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .hero-banner .hero-slider-wrapper .hero-slides {
+    height: 450px;
+  }
+
+  .hero-slides .hero-slide-caption .hero-slide-container h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .hero-slides .hero-slide-caption {
+    background-color: rgba(147, 141, 140, 0.7);
+  }
+
+  .faq-section {
+    background-color: var(--lightgrey);
+    padding: 60px 10px;
+  }
+
+  .section-header {
+    margin-bottom: 30px;
+  }
+
+  .section-header h2 {
+    font-size: 33px;
+    line-height: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero-banner .hero-slider-wrapper .hero-slides {
+    height: 80vh;
+  }
+}

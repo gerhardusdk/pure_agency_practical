@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'swiss-bold';
+    src: url('fonts/swiss/swiss-bold-webfont.woff2') format('woff2'),
+         url('fonts/swiss/swiss-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'swiss-medium';
+    src: url('fonts/swiss/swiss-medium-webfont.woff2') format('woff2'),
+         url('fonts/swiss/swiss-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'swiss-regular';
+    src: url('fonts/swiss/swiss-regular-webfont.woff2') format('woff2'),
+         url('fonts/swiss/swiss-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'swiss-light-extended';
+    src: url('fonts/swiss/swiss-light-extended.woff2') format('woff2'),
+         url('fonts/swiss/swiss-light-extended.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'swiss-bold-extended';
+    src: url('fonts/swiss/swiss-bold-extended.woff2') format('woff2'),
+         url('fonts/swiss/swiss-bold-extended.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'azosans-black';
+    src: url('fonts/azo_sans/azosans-black-webfont.woff2') format('woff2'),
+         url('fonts/azo_sans/azosans-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'azosans-bold';
+    src: url('fonts/azo_sans/azosans-bold-webfont.woff2') format('woff2'),
+         url('fonts/azo_sans/azosans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'azosans-light';
+    src: url('fonts/azo_sans/azosans-light-webfont.woff2') format('woff2'),
+         url('fonts/azo_sans/azosans-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'azosans-medium';
+    src: url('fonts/azo_sans/azosans-medium-webfont.woff2') format('woff2'),
+         url('fonts/azo_sans/azosans-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'azosans-regular';
+    src: url('fonts/azo_sans/azosans-regular-webfont.woff2') format('woff2'),
+         url('fonts/azo_sans/azosans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'azosans-thin';
+    src: url('fonts/azo_sans/azosans-thin-webfont.woff2') format('woff2'),
+         url('fonts/azo_sans/azosans-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

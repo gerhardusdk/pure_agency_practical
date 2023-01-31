@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --grey: #676767;
+  --aqua: #87c7c8;
+  --teal: #829199;
+  --lightgrey: #efefef;
+  --lightbrown: #938d8c;
+}
+
+body {
+  background-color: var(--white);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li,
+ol,
+p,
+strong,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
