@@ -61,7 +61,7 @@
                 <div class="logo-appointment-bar">
 
                   <div class="logo-wrapper">
-                    <a href="#"><img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/images/logo.png" /></a>
+                    <a href="#"><img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/images/Logo.png" /></a>
                   </div>
 
                   <div class="appointment-button-wrapper">
